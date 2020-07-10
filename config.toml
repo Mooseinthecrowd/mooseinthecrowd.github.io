@@ -1,6 +1,6 @@
-baseURL = "https://mooseinthecrowd.github.io/
+baseURL = "https://mooseinthecrowd.github.io/"
 languageCode = "en-us"
-title = "Moose In The Crowd's Page"
+title = "Mooseinthecrowd"
 copyright = "Copyright infomation."
 themesdir = "themes"
 theme = "hugo_eiio"
@@ -9,17 +9,16 @@ PaginatePath="page"
 pygmentsuseclasses = true
 disqusShortname = "user id"
 googleAnalytics='google analytics code'
-
 preserveTaxonomyNames = false
 disablePathToLower = true
 hasCJKLanguage = true
+
 [taxonomies]
   category = "categories"
   tag = "tags"
 
 [params]
   hljsStyle="atom-one-dark" #code highlightjs css style . See [Style List](https://github.com/highlightjs/highlight.js/tree/master/src/styles "CSS Style list")
-
   showNextAndPrePost = false #Is Show Next and Previous Post Button
   description = "site description"
   author = "your name"
@@ -30,6 +29,7 @@ hasCJKLanguage = true
   footerRight="Your tips content" #footer right content
   addthisID="addthis.com sharder plugin id"
   mainSections = ['page']
+
 [sitemap]
   changefreq = "monthly"
   priority = 0.5
